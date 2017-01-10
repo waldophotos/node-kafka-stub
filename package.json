@@ -1,6 +1,6 @@
 {
   "name": "@waldo/node-kafka-stub",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/kafka-stub",
   "description": "Stubbing methods for node-kafka library.",
   "homepage": "https://github.com/waldo/node-kafka-stub",
