@@ -1,0 +1,38 @@
+{
+  "name": "@waldo/node-kafka-stub",
+  "version": "0.0.0",
+  "main": "./lib/boot",
+  "description": "Stubbing methods for node-kafka library.",
+  "homepage": "https://github.com/waldo/node-kafka-stub",
+  "bugs": "https://github.com/waldo/node-kafka-stub/issues",
+  "author": {
+    "name": "Thanasis Polychronakis",
+    "email": "thanasis@waldophotos.com"
+  },
+  "contributors": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waldo/node-kafka-stub"
+  },
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "scripts": {
+    "test": "mocha -b test/spec && eslint lib/**"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cip": "^1.0.0",
+    "sinon": "^1.17.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "grunt": "^1.0.1",
+    "grunt-release": "^0.14.0",
+    "mocha": "^3.2.0"
+  }
+}
