@@ -3,14 +3,24 @@
  */
 const chai = require('chai');
 const expect = chai.expect;
+const kafkaLib = require('@waldo/node-kafka');
 
-const awesomeLib = require('../..');
+const kafkaStub = require('../..');
+
 
 describe('Base API Surface', function() {
   it('should expose expected methods', function(){
-    expect(awesomeLib).to.have.keys([
-      'awesome',
-      'method',
+    expect(kafkaStub).to.be.a('function');
+  });
+
+  it('should expose expected methods after instanciated', function(){
+    const stub = kafkaStub(kafkaLib);
+    expect(stub).to.have.keys([
+      'reset',
+      'mute',
+      'stub',
+      'restore',
+      'produce',
     ]);
   });
 });
