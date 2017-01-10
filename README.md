@@ -2,7 +2,7 @@
 
 > Stubbing methods for node-kafka library
 
-[CircleCI Builds](https://circleci.com/gh/waldophotos/node-kafka-stub)
+[![CircleCI](https://circleci.com/gh/waldophotos/node-kafka-stub/tree/master.svg?style=svg&circle-token=ea338d200eaca1b2ce099ca59784ff17466dc60b)](https://circleci.com/gh/waldophotos/node-kafka-stub/tree/master)
 
 ## Install
 
