@@ -15,12 +15,11 @@ describe('Base API Surface', function() {
 
   it('should expose expected methods after instanciated', function(){
     const stub = kafkaStub(kafkaLib);
-    expect(stub).to.have.keys([
-      'reset',
-      'mute',
-      'stub',
-      'restore',
-      'produce',
-    ]);
+
+    expect(stub.reset).to.be.a('function');
+    expect(stub.mute).to.be.a('function');
+    expect(stub.stub).to.be.a('function');
+    expect(stub.restore).to.be.a('function');
+    expect(stub.produce).to.be.a('function');
   });
 });
